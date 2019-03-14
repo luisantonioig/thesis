@@ -1,26 +1,39 @@
 #+OPTIONS: toc:nil
 #+TITLE:Comparison between Smart Contracts Platforms
 #+Author: Luis Ibarra
-* Introduction
-** Justification
-*** The importance of blockchain industry ($$)
-#+ATTR_HTML: :height 40%, :width 40%
-[[./dollar.png]]
+* TODO Introduction
+** Definition of the problem
+   There are too many  blockchain platform with different features implementing Smart Contracts and DApps.
 
-*** Mention some important bugs in history of smart contracts ($$)
-- The DAO Attack ($50)
-- King of the Ether Throne
-- Multi-player Games
-- Rubixi
-- GovernMental
-- Dynamic libraries
+   Developers do not know which one to use in each of citetheir projects
+
 ** Main Goal
 To compare Smart Contracts Platforms to be able to recomend the best according with the purpose of the implementation
 
 *** specific goals
 - Implement Smart Contracts in different platforms
 - Gather metrics
-- Issue a trial
+- Give a recomendation
+** Scope and limitations
+It will be implemented a loyalty program on Ethereum with Solidity and Golang, Python and Waves and will be analized a loyalty program made with EOS and C++
+
+** Scope and limitations
+Will be compared
+- Cuantitative
+  - Cost of transactions
+  - Speed of transactions
+  - Halstead complexity
+- Cualitative
+  - Easy to develop
+  - Features
+  - Consensus algorithm
+  - Authentication methods
+** Methodology
+Will search about the 
+** Contributions
+- A comparison between Ethereum, Waves and EOS Smart Contracts platforms
+- Implementation of a loyalty program on Ethereum (Solidity and Golang) and Waves (Python)
+- Discussion about features in each platform
 ** How this thesis organized
 - Background
 - Methodology
@@ -29,7 +42,18 @@ To compare Smart Contracts Platforms to be able to recomend the best according w
 - Discussion of the results
 - Conclusion and Lessons Learned
 - References
-* Background
+* TODO Background
+** The importance of blockchain industry ($$)
+ #+ATTR_HTML: :height 40%, :width 40%
+ [[./dollar.png]]
+
+** Mention some important bugs in history of smart contracts ($$)
+ - The DAO Attack ($50)
+ - King of the Ether Throne
+ - Multi-player Games
+ - Rubixi
+ - GovernMental
+ - Dynamic libraries
 ** Loyalty programs
 *** History
 - Airlines' frequent fliers schemes 1981
@@ -84,7 +108,7 @@ To compare Smart Contracts Platforms to be able to recomend the best according w
 - Features
 - Consensus algorithm
 - Authentication methods
-* Methodology
+* TODO Methodology
 #+ATTR_HTML: :height 40%, :width 40%
 [[./thinking.png]]
 ** Requirements Specification of a loyalty program.
@@ -100,14 +124,16 @@ Will design with:
 - Sequence diagrams
 ** Selection of features
 ** Extraction of features
-** Comparison of the features
-* Experiment
+** TODO Comparison of the features
+* TODO Experiment
 ** Creation of a loyalty program in Ethereum
 ** Creation of a loyalty program in Waves
 ** Analysis of a loyalty program developed in EOS
 ** Extracting features
-* Results
-* Discussions of results
+* TODO Results
+* TODO Discussions of results
   Only here it can have your personal opinions
-* Conclusions and Lessons Learned
-* References
+* TODO Conclusions and Lessons Learned
+* TODO References
+
+bibliography:bibliography.bib
