@@ -3,17 +3,20 @@
 #+Author: Luis Ibarra
 * TODO Introduction
 ** Definition of the problem
-   There are too many  blockchain platform with different features implementing Smart Contracts and DApps.
-
-   Developers do not know which one to use in each of citetheir projects
+There are too many  blockchain platform with different features implementing Smart Contracts and DApps.
+Which blockchain is the best for my DApp?
 
 ** Main Goal
 To compare Smart Contracts Platforms to be able to recomend the best according with the purpose of the implementation
 
 *** specific goals
-- Implement Smart Contracts in different platforms
-- Gather metrics
-- Give a recomendation
+- To analyze the requirements, design and impement for a loyalty program to have a point of comparison between different smart contracts platforms.
+- To identify the metrics used in decentralized applications to be compared, researching in the literature.
+- To extract the metrics of each loyalty program implementation to compare each smart contract platform running all the implementations.
+
+*** specific goals
+- To identify the best smart contract platform to recommend it.
+- To mention some of the characteristics and challenges of every implementation.
 ** Scope and limitations
 It will be implemented a loyalty program on Ethereum with Solidity and Golang, Python and Waves and will be analized a loyalty program made with EOS and C++
 
@@ -29,7 +32,8 @@ Will be compared
   - Consensus algorithm
   - Authentication methods
 ** Methodology
-Will search about the 
+- Analyze requirements, design and implement a loyalty program
+- Identify 
 ** Contributions
 - A comparison between Ethereum, Waves and EOS Smart Contracts platforms
 - Implementation of a loyalty program on Ethereum (Solidity and Golang) and Waves (Python)
