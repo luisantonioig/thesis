@@ -37,7 +37,7 @@ Compare Smart Contracts Platforms to be able to recomend the best according with
 - Discussion of the results
 - Conclusion and Lessons Learned
 - References
-* TODO Background
+* TODO Background0
 ** Loyalty programs
 They are mechanisms to generate customer loyalty.
 Basically, businnes reward the customer loyalty by giving products or services
@@ -50,27 +50,6 @@ Basically, businnes reward the customer loyalty by giving products or services
 - Membership has reached 1.3 billions (The COLLOQUY loyalty marketing census: sizing up the US loyalty marketing industry)
 - The average US household belongs to 12 loyalty programs (The COLLOQUY loyalty marketing census: sizing up the US loyalty marketing industry)
 - Only 4.7 yield active participation
-** Blockchain Platforms
-*** Bitcoin
-In 2008, Nakamoto presented Bitcoin as a peer-to-peer cash system, so, users can send payments directly each other, Bitcoin uses blockchain technology.
-As most of blockchain implementation, transactions in Bitcoin are validated by a consensus algorithm called Proof Of Work.
-Bitcoin is known as: cryptocurrency, system of transactions and blockchain
-Bitcoin as a currency can have a price, this price can   
-*** Ethereum
-Such as Bitcoin, Ethereum is an implementation of blockchain concepts, but, it implement Smart Contracts.
-Users in Ethereum can create and run Smart Contracts inside, they run in the Ethereum Virtual Machine (EVM).
-EVM could be compared with a backend of a Web application. 
-*** Waves
-Waves is a decentralized blockchain focusing on custom blockchain tokens operations (Waves white paper)
-Waves has a Decentralized Exchange (DEX) and a easy way to create tokens
-Leased Proof-of-Stake (LPoS) is a consensus algorithm used for Waves
-*** Cardano
-Cardano is presented as the first blockchain implementing Proof-of-Stake consensus algorithm, this protocol is more efficient than Proof-of-Stake because it needs less computing power.
-Cardano uses two ways to create and run Smart Contracts and Descentralized Applications; Plutus (a functional programming language based on haskell), and Marlowe (an intuitive platform for developing Smart contracts)
-*** Cardano
-General and small modules (among others) are Benefits of Plutus (a functional programming language) (Cite Why functional programming matters)
-*** EOS
-EOS is a blockchain platform that can scale to millions of transactions per second, eliminates user fees and allows for quick and easy deployment and maintenance of decentralized applications. Cite eos technical paper
 ** Blockchain
 *** Definition
 #+ATTR_HTML: :height 50%, :width 50%
@@ -106,19 +85,32 @@ Has been seen that capitalization in blockchain could be powerful.
 When a blockchain needs to insert a new node into the blockchain should be a consensus, this means, all nodes agree that the new block is correct.
 
 There are some algorithms to archive consensus:
+#+REVEAL: split
 **** POW (Proof of Work)
 In a proof of work algorithm, the node that insert the new block in the blockchain is called "miner", the miner selection process is done solving puzzles, the first node in solve the puzzle will add the new block.
 Some of the blockchain platforms implementing proof of work algorithm are:
 - Bitcoin
 - Ethereum
+#+REVEAL: split
 **** POS (Proof of Stake)
 In a Proof of Stake algorithm, participants have to stake some of cryptocurrency, the more cryptocurrency you stake the more probability of win you have
+#+REVEAL: split
 **** Others
 There are others consensus algorithms, but they are algorithms based on Proof of Work and Proof of Stake
 *** Smart Contracts
+:PROPERTIES:
+    :reveal_background: ./Smart_contract.png
+    :reveal_background_trans: slide
+    :reveal_background_size: 200px
+    :reveal_background_position: 3% 96%
+:END:
 Smart Contracts are programming script inside the blockchain, they are used to simulate real world contracts in a blockchain
 Smart Contracts can be Executed autamatically.
 *** Tokens
+:PROPERTIES:
+    :reveal_background: ./bg_altcoins.png
+    :reveal_background_trans: slide
+    :END:
 With Smart Contracts can be created new currencies called "tokens". Some blockchain platforms create tokens with standars (like ERC-20) to be compatible.
 You can use Wallets in which you can save tokens and cryptocurrencies.
 Also there are exchanges for tokens created by the blockchain users. (Waves)
@@ -126,16 +118,68 @@ Also there are exchanges for tokens created by the blockchain users. (Waves)
 You also can build "Decentralized applications" through Smart contracts.
 Decentralized applications are applications running inside a blockchain.
 
+** Blockchain Platforms
+*** Bitcoin
+:PROPERTIES:
+    :reveal_background: ./bitcoin.png
+    :reveal_background_trans: slide
+    :reveal_background_size: 200px
+    :reveal_background_position: 96% 3%
+    :END:
+In 2008, Nakamoto presented Bitcoin as a peer-to-peer cash system, so, users can send payments directly each other, Bitcoin uses blockchain technology.
+As most of blockchain implementation, transactions in Bitcoin are validated by a consensus algorithm called Proof Of Work.
+Bitcoin is known as: cryptocurrency, system of transactions and blockchain
+Bitcoin as a currency can have a price, this price can   
+*** Ethereum
+:PROPERTIES:
+    :reveal_background: ./ethereum.png
+    :reveal_background_trans: slide
+    :reveal_background_size: 200px
+    :reveal_background_position: 96% 3%
+    :END:
+Such as Bitcoin, Ethereum is an implementation of blockchain concepts, but, it implement Smart Contracts.
+Users in Ethereum can create and run Smart Contracts inside, they run in the Ethereum Virtual Machine (EVM).
+EVM could be compared with a backend of a Web application. 
+*** Waves
+:PROPERTIES:
+    :reveal_background: ./waves.png
+    :reveal_background_trans: slide
+    :reveal_background_size: 200px
+    :reveal_background_position: 96% 3%
+    :END:
+Waves is a decentralized blockchain focusing on custom blockchain tokens operations (Waves white paper)
+Waves has a Decentralized Exchange (DEX) and a easy way to create tokens
+Leased Proof-of-Stake (LPoS) is a consensus algorithm used for Waves
+*** Cardano
+:PROPERTIES:
+    :reveal_background: ./cardano.png
+    :reveal_background_trans: slide
+    :reveal_background_size: 200px
+    :reveal_background_position: 96% 3%
+    :END:
+Cardano is presented as the first blockchain implementing Proof-of-Stake consensus algorithm, this protocol is more efficient than Proof-of-Stake because it needs less computing power.
+Cardano uses two ways to create and run Smart Contracts and Descentralized Applications; Plutus (a functional programming language based on haskell), and Marlowe (an intuitive platform for developing Smart contracts)
+*** Cardano
+General and small modules (among others) are Benefits of Plutus (a functional programming language) (Cite Why functional programming matters)
+*** EOS
+:PROPERTIES:
+    :reveal_background: ./eos.png
+    :reveal_background_trans: slide
+    :reveal_background_size: 200px
+    :reveal_background_position: 96% 3%
+    :END:
+EOS is a blockchain platform that can scale to millions of transactions per second, eliminates user fees and allows for quick and easy deployment and maintenance of decentralized applications. Cite eos technical paper
+
 ** Metrics
 *** Quantitaive
-- Cost
-- Speed
-- Halstead metrics
+**** Cost of transaction
+**** Speed
+**** Halstead metrics
 *** Qualititive
-- Easy to develop
-- Features
-- Consensus algorithm
-- Authentication methods
+**** Easy to develop
+**** Features
+**** Consensus algorithm
+**** Authentication methods
 * TODO Methodology
 - Identify valuable metrics in DApps
 - Analyze requirements and design a loyalty program
