@@ -50,7 +50,7 @@ Compare Smart Contracts Platforms to be able to recomend the best according with
 -   References
 
 
-# TODO Background
+# DONE Background
 
 
 ## Loyalty programs
@@ -243,21 +243,6 @@ In blockhain platforms there are different ways to autenticate.
 ![img](./thinking.png)
 
 
-## Scope and limitations
-
-Will be compared
-
--   Cuantitative
-    -   Cost of transactions
-    -   Speed of transactions
-    -   Halstead complexity
--   Cualitative
-    -   Easy to develop
-    -   Features
-    -   Consensus algorithm
-    -   Authentication methods
-
-
 ## Requirements Specification of a loyalty program.
 
 -   Will design some User Stories
@@ -280,16 +265,69 @@ Will design with:
 -   Sequence diagrams
 
 
-## Selection of features
+## Selection and extraction of features
+
+Will be compared
+
+-   Cuantitative
+    -   Cost of transactions
+    -   Speed of transactions
+    -   Halstead complexity
+-   Cualitative
+    -   Easy to develop
+    -   Features
+    -   Consensus algorithm
+    -   Authentication methods
 
 
-## Extraction of features
+### Cost of transactions
+
+This is a blockchain metric, because (almost) every blockchain platform charges a fee to the users for making transactions
+
+
+### Speed of transactions
+
+Another blockchain metric is the speed of transactions, this metrics is used because transactions in a blockchain are not immediat
+
+
+### Halstead complexity
+
+We choose this metric because Smart Contracts are prograaming scripts and they contain code. Halstead metrics are metrics for lines of code.
+
+
+### Easy to develop
+
+We refer to "easy to develop" to the things that we have to do to develop some system.
+
+
+### Features
+
+Features are the thing that we will develop. Some implementations will have more features than others.
+
+
+### Consensus algorithm
+
+Consensus algorithm is a very important cualitative metric in blockchain platforms, this says how nodes agree to the creation of new blocks
+
+
+### Authentication methods
+
+We will compare the ways that every blockchain platform authenticate the users.
 
 
 ## Comparison of the features
 
+We are looking for the blockchain platform that:
 
-# TODO Experiment
+-   Has the lowest transaction fee
+-   Make transactions faster than others
+-   Has the lowest halstead complexity
+-   Is easy to develop
+-   Has the best consensus algorithm
+-   Has the best authentication methods
+
+
+# Experiment
 
 
 ## Creation of a loyalty program in Ethereum
@@ -304,18 +342,18 @@ Will design with:
 ## Extracting features
 
 
-# TODO Results
+# Results
 
 
-# TODO Discussions of results
+# Discussions of results
 
 Only here it can have your personal opinions
 
 
-# TODO Conclusions and Lessons Learned
+# Conclusions and Lessons Learned
 
 
-# TODO References
+# References
 
 bibliography:bibliography.bib
 
